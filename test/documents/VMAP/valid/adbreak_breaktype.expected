@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "breaks": [
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        2
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        3
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        1,
+        2
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        1,
+        3
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        2,
+        3
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        1,
+        2,
+        3
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<!-- AdBreaks with invalid Tracking event (unknown event level) -->
+<vmap:VMAP version='1.0' xmlns:vmap='http://www.iab.net/vmap-1.0'>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:TrackingEvents>
+            <vmap:Tracking event='plop'>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/1]]>
+            </vmap:Tracking>
+        </vmap:TrackingEvents>
+    </vmap:AdBreak>
+</vmap:VMAP>

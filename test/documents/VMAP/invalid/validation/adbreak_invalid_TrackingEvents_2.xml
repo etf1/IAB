@@ -1,0 +1,8 @@
+<!-- AdBreaks with invalid Tracking event (invalid uri) -->
+<vmap:VMAP version='1.0' xmlns:vmap='http://www.iab.net/vmap-1.0'>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:TrackingEvents>
+            <vmap:Tracking event='breakEnd'>hello</vmap:Tracking>
+        </vmap:TrackingEvents>
+    </vmap:AdBreak>
+</vmap:VMAP>

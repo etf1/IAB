@@ -1,0 +1,65 @@
+{
+  "version": "3.0",
+  "ads": [
+    {
+      "adType": 1,
+      "adTitle": "",
+      "adSystem": {
+        "name": "TF1 Pub VAST 3.0"
+      },
+      "id": "tf1pub_100_0",
+      "error": "http://prd.privateapi.wisdom.etf1.tf1.fr/error_report/fd42b341-c519-11e6-ac71-51234b27ad62",
+      "impressions": [
+        {
+          "uri": "http://prd.api.wisdom.etf1.tf1.fr/ackIptvImpression/images/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.jpg",
+          "id": "fd454b50-c519-11e6-ac71-51234b27ad62"
+        }
+      ],
+      "creatives": [
+        {
+          "creativeType": 1,
+          "duration": "00:00:58",
+          "id": "",
+          "trackings": [
+            {
+              "event": 2,
+              "uri": "http://prd.api.wisdom.etf1.tf1.fr/ackIptvStart/css/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.css"
+            },
+            {
+              "event": 3,
+              "uri": "http://prd.api.wisdom.etf1.tf1.fr/ackIptvFirstQuartile/images/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.jpg"
+            },
+            {
+              "event": 4,
+              "uri": "http://prd.api.wisdom.etf1.tf1.fr/ackIptvMidpoint/css/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.css"
+            },
+            {
+              "event": 5,
+              "uri": "http://prd.api.wisdom.etf1.tf1.fr/ackIptvThirdQuartile/images/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.jpg"
+            },
+            {
+              "event": 6,
+              "uri": "http://prd.api.wisdom.etf1.tf1.fr/ackIptvComplete/css/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.css?endTunnel=true"
+            }
+          ],
+          "videoClicks": {
+            "clickThrough": {
+              "uri": "http://openad.tf1.fr/5c/LCI.IPTV/jt-du-we/videos/catchup/L17/1818566554/x01/TF1_Publicite/31299_FILM_MANCHESTER_B_105037@31299_FILM_MANCHESTER_B_105037_iptv/31299_FILM_MANCHESTER_B_105037_iptv_Spot_video_60_.html/75525a31365668576578494142314c2f?EXCEPTION=&MEDIA=iptv&LEGAL=&DURVID=2574&IDURL=TF1_301954_1061827_17521268&UVID=10922847&RM_Exclude=&_RM_HTML_DID_=fbec168f-93ca-4272-a8d3-2a2cf6ffb558&_RM_HTML_TERMINALID_=fbec168f-93ca-4272-a8d3-2a2cf6ffb558&OPERATOR=free"
+            }
+          },
+          "mediaFiles": [
+            {
+              "uri": "1041521909",
+              "mimetype": "application/vnd.ms-sstr+xml",
+              "delivery": 2,
+              "width": 640,
+              "height": 360,
+              "scalable": true,
+              "maintainAspectRatio": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

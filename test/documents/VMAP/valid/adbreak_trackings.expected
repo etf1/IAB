@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "breaks": [
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "trackings": [
+        {
+          "level": 1,
+          "uri": "http://7b9df.v.fwmrm.net/ad/1"
+        }
+      ]
+    },
+    {
+      "timeOffset": "50%",
+      "breakTypes": [
+        1
+      ],
+      "trackings": [
+        {
+          "level": 1,
+          "uri": "http://7b9df.v.fwmrm.net/ad/1"
+        },
+        {
+          "level": 2,
+          "uri": "http://7b9df.v.fwmrm.net/ad/2"
+        },
+        {
+          "level": 3,
+          "uri": "http://7b9df.v.fwmrm.net/ad/3"
+        }
+      ],
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "end",
+      "breakTypes": [
+        1
+      ]
+    }
+  ]
+}

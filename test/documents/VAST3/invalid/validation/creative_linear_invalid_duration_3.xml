@@ -1,0 +1,20 @@
+<!-- <Creative> with an invalid <Duration> -->
+<VAST version="3.0">
+    <Ad id="601364">
+        <InLine>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
+            <Description>VAST 2.0 Instream Test 1</Description>
+            <Error>http://myErrorURL/error</Error>
+
+            <Impression>http://myTrackingURL/impression</Impression>
+            <Creatives>
+                <Creative AdID="601364">
+                    <Linear>
+                        <Duration>00:61:00</Duration>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

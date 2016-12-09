@@ -1,0 +1,33 @@
+sudo: false
+
+cache: yarn
+
+language: node_js
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+      - gcc-4.8
+env:
+  - CXX=g++-4.8
+
+node_js:
+  - '4'
+  - '5'
+  - '6'
+  - 'stable'
+
+before_install:
+  - npm install -g yarn
+  - yarn
+
+install:
+  - gulp build typescript:test
+
+script: "gulp test"
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

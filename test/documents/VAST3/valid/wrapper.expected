@@ -1,0 +1,73 @@
+{
+  "version": "3.0",
+  "ads": [
+    {
+      "adType": 2,
+      "VASTAdTagURI": "http://example.com/ad",
+      "adSystem": {
+        "name": "VAST"
+      },
+      "id": "287461",
+      "sequence": 1,
+      "error": "http://example.com/wrapper-error",
+      "impressions": [
+        {
+          "uri": "http://example.com/wrapper-impression"
+        }
+      ],
+      "creatives": [
+        {
+          "creativeType": 1,
+          "trackings": [
+            {
+              "event": 1,
+              "uri": "http://example.com/wrapper-creativeview"
+            },
+            {
+              "event": 2,
+              "uri": "http://example.com/wrapper-start"
+            },
+            {
+              "event": 3,
+              "uri": "http://example.com/wrapper-firstQuartile"
+            },
+            {
+              "event": 4,
+              "uri": "http://example.com/wrapper-midpoint"
+            },
+            {
+              "event": 5,
+              "uri": "http://example.com/wrapper-thirdQuartile"
+            },
+            {
+              "event": 6,
+              "uri": "http://example.com/wrapper-complete"
+            },
+            {
+              "event": 2,
+              "uri": "http://example.com/wrapper-start"
+            }
+          ],
+          "videoClicks": {
+            "clickTrackings": [
+              {
+                "uri": "http://example.com/wrapper-clicktracking"
+              }
+            ]
+          }
+        }
+      ],
+      "extensions": [
+        {
+          "Behavior": [
+            {
+              "$t": "unknown",
+              "type": "thirdPartyAdServer"
+            }
+          ],
+          "type": "Behavior"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "breaks": [
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 2,
+        "adDataType": 1,
+        "customAdData": "http://7b9df.v.fwmrm.net/ad/1"
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 2,
+        "adDataType": 2,
+        "customAdData": {
+          "templateType": "vast2",
+          "tag": [
+            {
+              "root": [
+                {
+                  "$t": "1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 2,
+        "adDataType": 3,
+        "customAdData": "hello, world"
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 2,
+        "adDataType": 3,
+        "customAdData": {
+          "templateType": "proprietary",
+          "VAST": [
+            {
+              "version": "3.0"
+            }
+          ]
+        }
+      },
+      "id": "cue_point-347762684"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<!-- Wrapper with a duration -->
+<VAST version="3.0">
+    <Ad id="287461" sequence="1">
+        <Wrapper>
+            <AdSystem>VAST</AdSystem>
+            <VASTAdTagURI>http://example.com/ad</VASTAdTagURI>
+            <Error>http://example.com/wrapper-error</Error>
+            <Impression>http://example.com/wrapper-impression</Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents>
+                            <Tracking event="creativeView"><![CDATA[http://example.com/wrapper-creativeview]]></Tracking>
+                            <Tracking event="start"><![CDATA[http://example.com/wrapper-start]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://example.com/wrapper-firstQuartile]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://example.com/wrapper-midpoint]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://example.com/wrapper-thirdQuartile]]></Tracking>
+                            <Tracking event="complete"><![CDATA[http://example.com/wrapper-complete]]></Tracking>
+                            <Tracking event="start"><![CDATA[http://example.com/wrapper-start]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking><![CDATA[http://example.com/wrapper-clicktracking]]></ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="Behavior">
+                    <Behavior type="thirdPartyAdServer">unknown</Behavior>
+                </Extension>
+            </Extensions>
+        </Wrapper>
+    </Ad>
+</VAST>

@@ -1,0 +1,63 @@
+<!-- <Creative>s with all differents <TrackingEvents> -->
+<VAST version="3.0">
+    <Ad id="601364">
+        <InLine>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
+            <Description>VAST 2.0 Instream Test 1</Description>
+            <Error>http://myErrorURL/error</Error>
+
+            <Impression>http://myTrackingURL/impression</Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <TrackingEvents>
+                            <Tracking event="creativeView">http://www.google.com</Tracking>
+                            <Tracking event="creativeView">
+                                http://www.google.com
+                            </Tracking>
+                            <Tracking event="start"><![CDATA[http://www.google.com]]></Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[http://www.google.com]]>
+                            </Tracking>
+                            <Tracking event="midpoint">http://www.google.com</Tracking>
+                            <Tracking event="thirdQuartile">http://www.google.com</Tracking>
+                            <Tracking event="complete">http://www.google.com</Tracking>
+                            <Tracking event="mute">http://www.google.com</Tracking>
+                            <Tracking event="unmute">http://www.google.com</Tracking>
+                            <Tracking event="pause">http://www.google.com</Tracking>
+                            <Tracking event="rewind">http://www.google.com</Tracking>
+                            <Tracking event="resume">http://www.google.com</Tracking>
+                            <Tracking event="fullscreen">http://www.google.com</Tracking>
+                            <Tracking event="exitFullscreen">http://www.google.com</Tracking>
+                            <Tracking event="expand">http://www.google.com</Tracking>
+                            <Tracking event="collapse">http://www.google.com</Tracking>
+                            <Tracking event="acceptInvitation">http://www.google.com</Tracking>
+                            <Tracking event="close">http://www.google.com</Tracking>
+                            <Tracking event="skip">http://www.google.com</Tracking>
+                            <Tracking event="progress" offset="30%">http://www.google.com</Tracking>
+                            <Tracking event="progress" offset="5.2563%">http://www.google.com</Tracking>
+                            <Tracking event="progress" offset="00:01:20">http://www.google.com</Tracking>
+                            <Tracking event="progress" offset="15:20:59.123">http://www.google.com</Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <TrackingEvents>
+                            <Tracking event="progress" offset="15:20:59.123">http://www.google.com</Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <TrackingEvents></TrackingEvents>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

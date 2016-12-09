@@ -1,0 +1,99 @@
+{
+  "version": "1.0",
+  "breaks": [
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "extensions": [
+        {
+          "extensionType": "http://www.google.fr",
+          "value": {
+            "type": "http://www.google.fr",
+            "root": [
+              {
+                "tag": [
+                  {
+                    "$t": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "extensions": [
+        {
+          "extensionType": "http://www.google.fr",
+          "value": "Test"
+        }
+      ]
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "extensions": [
+        {
+          "extensionType": "http://www.google.fr",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "extensions": [
+        {
+          "extensionType": "empty",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "extensions": [
+        {
+          "extensionType": "empty",
+          "value": ""
+        },
+        {
+          "extensionType": "url",
+          "value": "http://www.google.fr"
+        },
+        {
+          "extensionType": "http://www.google.fr",
+          "value": "Test"
+        },
+        {
+          "extensionType": "http://www.google.fr",
+          "value": {
+            "type": "http://www.google.fr",
+            "xml": [
+              {
+                "a": [
+                  {
+                    "$t": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

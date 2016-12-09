@@ -1,0 +1,14 @@
+<!-- Missing <vmap:VMAP> tag -->
+<vmap:AdBreak breakId="pre.57452185" breakType="linear" timeOffset="start">
+    <vmap:AdSource allowMultipleAds="true" followRedirects="true" id="1">
+        <vmap:VASTAdData>
+            <VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  version="3.0" xsi:noNamespaceSchemaLocation="vast.xsd"/>
+        </vmap:VASTAdData>
+    </vmap:AdSource>
+    <vmap:TrackingEvents>
+        <vmap:Tracking event="breakEnd">
+            <![CDATA[https://7b9df.v.fwmrm.net/ad/l/1?s=d001&n=506335%3B506335&t=1481550964684495007&f=&cn=videoView&et=i&uxnw=&uxss=&uxct=&init=1&vcid2=506335%3Aaf296e46-48ff-4885-af78-9efca5799c7f]]>
+        </vmap:Tracking>
+    </vmap:TrackingEvents>
+</vmap:AdBreak>

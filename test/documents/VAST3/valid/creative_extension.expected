@@ -1,0 +1,92 @@
+{
+  "version": "3.0",
+  "ads": [
+    {
+      "adType": 1,
+      "adTitle": "VAST 2.0 Instream Test 1",
+      "description": "VAST 2.0 Instream Test 1",
+      "adSystem": {
+        "name": "Acudeo Compatible"
+      },
+      "id": "601364",
+      "error": "http://myErrorURL/error",
+      "impressions": [
+        {
+          "uri": "http://myTrackingURL/impression"
+        }
+      ],
+      "creatives": [
+        {
+          "creativeType": 1,
+          "duration": "01:00:00",
+          "adID": "601364"
+        },
+        {
+          "creativeType": 1,
+          "duration": "01:00:00",
+          "adID": "601365",
+          "extensions": [
+            {}
+          ]
+        },
+        {
+          "creativeType": 1,
+          "duration": "01:00:00",
+          "adID": "601366",
+          "extensions": [
+            {
+              "haptic": [
+                {
+                  "creativeId": "12727552",
+                  "$t": "http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "creativeType": 1,
+          "duration": "01:00:00",
+          "adID": "601367",
+          "extensions": [
+            {
+              "haptic": [
+                {
+                  "creativeId": "12727552",
+                  "$t": "http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt"
+                },
+                {
+                  "creativeId": "12727552",
+                  "$t": "http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "creativeType": 1,
+          "duration": "01:00:00",
+          "adID": "601368",
+          "extensions": [
+            {
+              "haptic": [
+                {
+                  "creativeId": "12727552",
+                  "$t": "http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt"
+                }
+              ]
+            },
+            {
+              "haptic": [
+                {
+                  "creativeId": "12727552",
+                  "$t": "http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

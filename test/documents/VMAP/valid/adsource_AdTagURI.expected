@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "breaks": [
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 3,
+        "adDataType": 1,
+        "adTagURI": "http://7b9df.v.fwmrm.net/ad/1"
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 3,
+        "adDataType": 2,
+        "adTagURI": "http://7b9df.v.fwmrm.net/ad/1"
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 3,
+        "adDataType": 3,
+        "adTagURI": "http://7b9df.v.fwmrm.net/ad/1"
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 3,
+        "adDataType": 4,
+        "adTagURI": "http://7b9df.v.fwmrm.net/ad/1"
+      },
+      "id": "cue_point-347762684"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!-- AdBreaks with different Extensions values -->
+<vmap:VMAP version='1.0' xmlns:vmap='http://www.iab.net/vmap-1.0'>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:Extensions>
+            <vmap:Extension type="http://www.google.fr">
+                <root><tag>1</tag></root>
+            </vmap:Extension>
+        </vmap:Extensions>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:Extensions>
+            <vmap:Extension type="http://www.google.fr">
+                <![CDATA[Test]]>
+            </vmap:Extension>
+        </vmap:Extensions>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:Extensions>
+            <vmap:Extension type="http://www.google.fr">1</vmap:Extension>
+        </vmap:Extensions>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:Extensions>
+            <vmap:Extension type="empty"></vmap:Extension>
+        </vmap:Extensions>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:Extensions>
+            <vmap:Extension type="empty"></vmap:Extension>
+            <vmap:Extension type="url">http://www.google.fr</vmap:Extension>
+            <vmap:Extension type="http://www.google.fr">
+                <![CDATA[Test]]>
+            </vmap:Extension>
+            <vmap:Extension type="http://www.google.fr">
+                <xml><a>1</a></xml>
+            </vmap:Extension>
+        </vmap:Extensions>
+    </vmap:AdBreak>
+</vmap:VMAP>

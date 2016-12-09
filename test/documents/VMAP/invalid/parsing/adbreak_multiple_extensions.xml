@@ -1,0 +1,15 @@
+<!-- Extensions without a type -->
+<vmap:VMAP version='1.0' xmlns:vmap='http://www.iab.net/vmap-1.0'>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:Extensions>
+            <vmap:Extension>
+                <root><tag>1</tag></root>
+            </vmap:Extension>
+        </vmap:Extensions>
+        <vmap:Extensions>
+            <vmap:Extension>
+                <root><tag>1</tag></root>
+            </vmap:Extension>
+        </vmap:Extensions>
+    </vmap:AdBreak>
+</vmap:VMAP>

@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "breaks": [
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [1],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "00:59:12.123",
+      "breakTypes": [1],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "50%",
+      "breakTypes": [1],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "start",
+      "breakTypes": [1],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "end",
+      "breakTypes": [1],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    },
+    {
+      "timeOffset": "#8",
+      "breakTypes": [1],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    }
+  ]
+}

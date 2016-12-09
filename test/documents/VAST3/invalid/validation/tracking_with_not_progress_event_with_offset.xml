@@ -1,0 +1,23 @@
+<!-- <Tracking> without a event="progress" but with a offset attr -->
+<VAST version="3.0">
+    <Ad id="601364">
+        <InLine>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
+            <Description>VAST 2.0 Instream Test 1</Description>
+            <Error>http://myErrorURL/error</Error>
+
+            <Impression>http://myTrackingURL/impression</Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <TrackingEvents>
+                            <Tracking event="complete" offset="20%">http://www.google.com</Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

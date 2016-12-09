@@ -1,0 +1,29 @@
+<!-- AdSources with different CustomAdData and templateType values-->
+<vmap:VMAP version='1.0' xmlns:vmap='http://www.iab.net/vmap-1.0'>
+    <vmap:AdBreak breakId='cue_point-347762684' breakType='linear' timeOffset="start" >
+        <vmap:AdSource allowMultipleAds='false' followRedirects='true' id='1' >
+            <vmap:CustomAdData templateType="vast1">
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/1]]>
+            </vmap:CustomAdData>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakId='cue_point-347762684' breakType='linear' timeOffset="start" >
+        <vmap:AdSource allowMultipleAds='false' followRedirects='true' id='1' >
+            <vmap:CustomAdData templateType="vast2">
+                <tag><root>1</root></tag>
+            </vmap:CustomAdData>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakId='cue_point-347762684' breakType='linear' timeOffset="start" >
+        <vmap:AdSource allowMultipleAds='false' followRedirects='true' id='1' >
+            <vmap:CustomAdData templateType="proprietary">hello, world</vmap:CustomAdData>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakId='cue_point-347762684' breakType='linear' timeOffset="start" >
+        <vmap:AdSource allowMultipleAds='false' followRedirects='true' id='1' >
+            <vmap:CustomAdData templateType="proprietary">
+                <VAST version='3.0'></VAST>
+            </vmap:CustomAdData>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+</vmap:VMAP>

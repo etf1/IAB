@@ -1,0 +1,22 @@
+<!-- <Creative>s with different <AdParameters> values -->
+<VAST version="3.0">
+    <Ad id="601364">
+        <InLine>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
+            <Description>VAST 2.0 Instream Test 1</Description>
+            <Error>http://myErrorURL/error</Error>
+
+            <Impression>http://myTrackingURL/impression</Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <AdParameters xmlEncoded="true"><root><sub>1</sub></root></AdParameters>
+                        <AdParameters xmlEncoded="false">test</AdParameters>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

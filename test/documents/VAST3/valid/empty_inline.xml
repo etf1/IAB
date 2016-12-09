@@ -1,0 +1,11 @@
+<!-- An empty Inline ad -->
+<VAST version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad>
+        <InLine>
+            <AdSystem>FreeWheel</AdSystem>
+            <AdTitle>My empty ad</AdTitle>
+            <Impression>http://www.google.fr</Impression>
+            <Creatives></Creatives>
+        </InLine>
+    </Ad>
+</VAST>

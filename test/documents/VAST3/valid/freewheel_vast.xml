@@ -1,0 +1,116 @@
+<VAST version='3.0'
+      xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+      xsi:noNamespaceSchemaLocation='vast.xsd'>
+    <Ad id='17664513.140431740808064' sequence='1'>
+        <InLine>
+            <AdSystem>FreeWheel</AdSystem>
+            <AdTitle>test_iptv_mid_1</AdTitle>
+            <Error>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&iw=&uxnw=&uxss=&uxct=&et=e&cn=%5BERRORCODE%5D]]></Error>
+            <Impression id='FWi_17664513.0'>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=defaultImpression&et=i&_cc=17664513,6314031,,27291.27293.27295.,1481539312,1&tpos=850&iw=&uxnw=&uxss=&uxct=&metr=1023&init=1&cr=]]></Impression>
+            <Creatives>
+                <Creative AdID='17664513'>
+                    <Linear>
+                        <Duration>00:00:12</Duration>
+                        <TrackingEvents>
+                            <Tracking event='complete'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=complete&et=i&_cc=&tpos=850&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event='firstQuartile'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=firstQuartile&et=i&_cc=&tpos=850&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event='midpoint'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=midPoint&et=i&_cc=&tpos=850&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event='thirdQuartile'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=thirdQuartile&et=i&_cc=&tpos=850&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event='mute'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_mute&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='unmute'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_un-mute&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='collapse'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_collapse&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='expand'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_expand&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='pause'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_pause&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='resume'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_resume&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='rewind'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_rewind&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='acceptInvitation'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_accept-invitation&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='close'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=_close&et=s&_cc=&tpos=850]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking id='FWc_17664513.0'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664513&reid=6314031&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=850&cr=]]></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery='streaming'
+                                       height='0' id='6314031'
+                                       type='application/f4m+xml'
+                                       width='0'>
+                                <![CDATA[http://swim.tf1.fr/video.mp4?BOUYGUES=BCK_472926B&FREE=1041522515&ORANGE=MY1AD0015878&SFR=TF103TF472926&CSAT=csatg5_tf1_472926&NUMERICABLE=PUBTF100472926]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+    <Ad id='17664514.140431740813824' sequence='2'>
+        <InLine>
+            <AdSystem>FreeWheel</AdSystem>
+            <AdTitle>test_iptv_mid_2</AdTitle>
+            <Error>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&iw=&uxnw=&uxss=&uxct=&et=e&cn=%5BERRORCODE%5D]]></Error>
+            <Impression id='FWi_17664514.0'>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=defaultImpression&et=i&_cc=17664514,6314032,,27291.27293.27295.,1481539312,1&tpos=850&iw=&uxnw=&uxss=&uxct=&metr=1023&init=1&cr=]]></Impression>
+            <Creatives>
+                <Creative AdID='17664514'>
+                    <Linear>
+                        <Duration>00:00:20</Duration>
+                        <TrackingEvents>
+                            <Tracking event='complete'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=complete&et=i&_cc=&tpos=850&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event='firstQuartile'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=firstQuartile&et=i&_cc=&tpos=850&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event='midpoint'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=midPoint&et=i&_cc=&tpos=850&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event='thirdQuartile'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=thirdQuartile&et=i&_cc=&tpos=850&init=1&iw=&uxnw=&uxss=&uxct=&metr=1023]]></Tracking>
+                            <Tracking event='mute'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_mute&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='unmute'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_un-mute&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='collapse'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_collapse&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='expand'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_expand&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='pause'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_pause&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='resume'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_resume&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='rewind'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_rewind&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='acceptInvitation'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_accept-invitation&et=s&_cc=&tpos=850]]></Tracking>
+                            <Tracking event='close'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=_close&et=s&_cc=&tpos=850]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking id='FWc_17664514.0'>
+                                <![CDATA[http://7b9df.v.fwmrm.net/ad/l/1?s=g015&n=506335%3B506335&t=1481539312593979007&f=&r=506335&adid=17664514&reid=6314032&arid=0&auid=&cn=defaultClick&et=c&_cc=&tpos=850&cr=]]></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery='streaming'
+                                       height='0' id='6314032'
+                                       type='application/f4m+xml'
+                                       width='0'>
+                                <![CDATA[http://swim.tf1.fr/video.mp4?BOUYGUES=BCK_472825B&FREE=1041522378&ORANGE=MY1AD0015841&SFR=TF103TF472825&CSAT=csatg5_tf1_472825&NUMERICABLE=PUBTF100472825]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "breaks": [
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684",
+      "repeatAfter": "01:02:03"
+    },
+    {
+      "timeOffset": "00:59:12",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": true,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684",
+      "repeatAfter": "01:02:03.456"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<!-- Wisdom Example -->
+<VAST version="3.0">
+
+    <TF1>
+
+        <Callback>
+            <CoolingTime>0</CoolingTime><!-- Pas d appel avant 00:00:00 -->
+
+            <PlayheadTime>2576</PlayheadTime><!-- Prochain appel 00:42:56 -->
+
+            <Overlay>
+                <headTime></headTime><!-- Appel pour loverlay dans  00:00:00 -->
+                <url>
+                    <![CDATA[http://prd.api.wisdom.etf1.tf1.fr/overlay_request?uvid=10922847&durvid=2574&site=LCI.IPTV&legal=&device=iptv]]></url>
+            </Overlay>
+
+        </Callback>
+
+        <AdRequest>
+            <![CDATA[http://openad.tf1.fr/RealMedia/ads/adstream_sx.ads/LCI.IPTV/jt-du-we/videos/catchup/1702072436@x01,x02,x09?EXCEPTION=&MEDIA=iptv&LEGAL=&DURVID=2574&IDURL=TF1_301954_1061827_17521268&UVID=10922847&RM_Exclude=&_RM_HTML_DID_=fbec168f-93ca-4272-a8d3-2a2cf6ffb558&_RM_HTML_TERMINALID_=fbec168f-93ca-4272-a8d3-2a2cf6ffb558&OPERATOR=free]]></AdRequest>
+        <RuleName><![CDATA[mytf1-catchup-iptv-all-jt-du-we]]></RuleName>
+        <Message>
+            <Display>false</Display>
+            <Format>
+                <![CDATA[Pub {AdNumber}/{TotalNumber} - {RemainingAd}]]></Format>
+        </Message>
+    </TF1>
+
+
+    <Ad id="tf1pub_100_0" position="x01">
+        <InLine>
+            <AdSystem>TF1 Pub VAST 3.0</AdSystem>
+            <AdTitle></AdTitle>
+            <Description></Description>
+            <Error>
+                <![CDATA[http://prd.privateapi.wisdom.etf1.tf1.fr/error_report/fd42b341-c519-11e6-ac71-51234b27ad62]]></Error>
+
+            <!-- custom event created to identify the impressions -->
+            <Impression id="fd454b50-c519-11e6-ac71-51234b27ad62">
+                <![CDATA[http://prd.api.wisdom.etf1.tf1.fr/ackIptvImpression/images/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.jpg]]>
+            </Impression>
+
+            <Creatives>
+                <Creative id="">
+                    <Linear>
+                        <Duration>00:00:58</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[http://prd.api.wisdom.etf1.tf1.fr/ackIptvStart/css/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.css]]></Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[http://prd.api.wisdom.etf1.tf1.fr/ackIptvFirstQuartile/images/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.jpg]]></Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[http://prd.api.wisdom.etf1.tf1.fr/ackIptvMidpoint/css/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.css]]></Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[http://prd.api.wisdom.etf1.tf1.fr/ackIptvThirdQuartile/images/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.jpg]]></Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[http://prd.api.wisdom.etf1.tf1.fr/ackIptvComplete/css/fd43ebc0-c519-11e6-ac71-51234b27ad62/fd42b341-c519-11e6-ac71-51234b27ad62.css?endTunnel=true]]></Tracking>
+                        </TrackingEvents>
+
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[http://openad.tf1.fr/5c/LCI.IPTV/jt-du-we/videos/catchup/L17/1818566554/x01/TF1_Publicite/31299_FILM_MANCHESTER_B_105037@31299_FILM_MANCHESTER_B_105037_iptv/31299_FILM_MANCHESTER_B_105037_iptv_Spot_video_60_.html/75525a31365668576578494142314c2f?EXCEPTION=&MEDIA=iptv&LEGAL=&DURVID=2574&IDURL=TF1_301954_1061827_17521268&UVID=10922847&RM_Exclude=&_RM_HTML_DID_=fbec168f-93ca-4272-a8d3-2a2cf6ffb558&_RM_HTML_TERMINALID_=fbec168f-93ca-4272-a8d3-2a2cf6ffb558&OPERATOR=free]]>
+                            </ClickThrough>
+
+                        </VideoClicks>
+                        <MediaFiles>
+
+                            <MediaFile delivery="progressive"
+                                       type="application/vnd.ms-sstr+xml"
+                                       width="640" height="360" scalable="true"
+                                       maintainAspectRatio="true">
+                                <![CDATA[1041521909]]>
+                            </MediaFile>
+
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+
+            </Creatives>
+
+        </InLine>
+    </Ad>
+
+</VAST>

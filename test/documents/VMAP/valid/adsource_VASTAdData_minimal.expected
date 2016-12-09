@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "breaks": [
+    {
+      "timeOffset": "start",
+      "breakTypes": [
+        1
+      ],
+      "source": {
+        "id": "1",
+        "allowMultipleAds": false,
+        "followRedirects": true,
+        "dataType": 1,
+        "VASTAdData": {
+          "version": "3.0",
+          "ads": []
+        }
+      },
+      "id": "cue_point-347762684"
+    }
+  ]
+}

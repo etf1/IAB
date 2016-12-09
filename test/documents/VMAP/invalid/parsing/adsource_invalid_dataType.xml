@@ -1,0 +1,13 @@
+<!-- An AdSource with an unknown dataType -->
+<vmap:VMAP version='1.0' xmlns:vmap='http://www.iab.net/vmap-1.0'>
+    <vmap:AdBreak breakId='cue_point-347762684' breakType='linear' timeOffset="start" >
+        <vmap:AdSource allowMultipleAds='true' followRedirects='true' id='1' >
+            <vmap:SomethingElse>
+                <VAST version='3.0'
+                      xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+                      xsi:noNamespaceSchemaLocation='vast.xsd'>
+                </VAST>
+            </vmap:SomethingElse>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+</vmap:VMAP>

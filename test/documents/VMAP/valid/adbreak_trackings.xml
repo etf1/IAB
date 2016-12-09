@@ -1,0 +1,24 @@
+<!-- AdBreaks with different Tracking values -->
+<vmap:VMAP version='1.0' xmlns:vmap='http://www.iab.net/vmap-1.0'>
+    <vmap:AdBreak breakType='linear' timeOffset="start" >
+        <vmap:TrackingEvents>
+            <vmap:Tracking event='breakStart'>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/1]]>
+            </vmap:Tracking>
+        </vmap:TrackingEvents>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakId='cue_point-347762684' breakType='linear' timeOffset="50%" >
+        <vmap:TrackingEvents>
+            <vmap:Tracking event='breakStart'>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/1]]>
+            </vmap:Tracking>
+            <vmap:Tracking event='breakEnd'>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/2]]>
+            </vmap:Tracking>
+            <vmap:Tracking event='error'>http://7b9df.v.fwmrm.net/ad/3</vmap:Tracking>
+        </vmap:TrackingEvents>
+    </vmap:AdBreak>
+    <vmap:AdBreak breakType='linear' timeOffset="end" >
+        <vmap:TrackingEvents></vmap:TrackingEvents>
+    </vmap:AdBreak>
+</vmap:VMAP>

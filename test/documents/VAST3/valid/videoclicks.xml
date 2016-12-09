@@ -1,0 +1,97 @@
+<!-- <Creative> with all differents <VideoClicks> values -->
+<VAST version="3.0">
+    <Ad id="601364">
+        <InLine>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
+            <Description>VAST 2.0 Instream Test 1</Description>
+            <Error>http://myErrorURL/error</Error>
+
+            <Impression>http://myTrackingURL/impression</Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <ClickThrough>http://www.google.fr</ClickThrough>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <ClickThrough id="myId">http://www.google.fr</ClickThrough>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <ClickTracking>http://www.google.fr</ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <CustomClick>http://www.google.fr</CustomClick>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <ClickThrough>http://www.google.fr</ClickThrough>
+                            <ClickTracking>http://www.google.fr</ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <ClickThrough>http://www.google.fr</ClickThrough>
+                            <ClickTracking>http://www.google.fr</ClickTracking>
+                            <ClickTracking>http://www.google.fr</ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <ClickThrough>http://www.google.fr</ClickThrough>
+                            <CustomClick>http://www.google.fr</CustomClick>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <ClickThrough>http://www.google.fr</ClickThrough>
+                            <CustomClick>http://www.google.fr</CustomClick>
+                            <CustomClick>http://www.google.fr</CustomClick>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <VideoClicks>
+                            <ClickThrough>http://www.google.fr</ClickThrough>
+                            <CustomClick>http://www.google.fr</CustomClick>
+                            <CustomClick id="test1">http://www.google.fr</CustomClick>
+                            <ClickTracking>http://www.google.fr</ClickTracking>
+                            <ClickTracking id="test2">http://www.google.fr</ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

@@ -1,0 +1,63 @@
+<!-- <Creative>s with different <CreativeExtensions> values -->
+<VAST version="3.0">
+    <Ad id="601364">
+        <InLine>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
+            <Description>VAST 2.0 Instream Test 1</Description>
+            <Error>http://myErrorURL/error</Error>
+
+            <Impression>http://myTrackingURL/impression</Impression>
+            <Creatives>
+                <Creative AdID="601364">
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <CreativeExtensions></CreativeExtensions>
+                    </Linear>
+                </Creative>
+                <Creative AdID="601365">
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <CreativeExtensions>
+                            <CreativeExtension></CreativeExtension>
+                        </CreativeExtensions>
+                    </Linear>
+                </Creative>
+                <Creative AdID="601366">
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <CreativeExtensions>
+                            <CreativeExtension>
+                                <haptic creativeId="12727552"><![CDATA[http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt]]></haptic>
+                            </CreativeExtension>
+                        </CreativeExtensions>
+                    </Linear>
+                </Creative>
+                <Creative AdID="601367">
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <CreativeExtensions>
+                            <CreativeExtension>
+                                <haptic creativeId="12727552"><![CDATA[http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt]]></haptic>
+                                <haptic creativeId="12727552"><![CDATA[http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt]]></haptic>
+                            </CreativeExtension>
+                        </CreativeExtensions>
+                    </Linear>
+                </Creative>
+                <Creative AdID="601368">
+                    <Linear>
+                        <Duration>01:00:00</Duration>
+                        <CreativeExtensions>
+                            <CreativeExtension>
+                                <haptic creativeId="12727552"><![CDATA[http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt]]></haptic>
+                            </CreativeExtension>
+                            <CreativeExtension>
+                                <haptic creativeId="12727552"><![CDATA[http://slpubmedias.tf1.fr/MAX/HAPTIC/CARTENOIRE/V3/CarteNoir.hapt]]></haptic>
+                            </CreativeExtension>
+                        </CreativeExtensions>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

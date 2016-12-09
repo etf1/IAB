@@ -1,0 +1,10 @@
+<!-- AdTagURI without a templateType  -->
+<vmap:VMAP version='1.0' xmlns:vmap='http://www.iab.net/vmap-1.0'>
+    <vmap:AdBreak breakId='cue_point-347762684' breakType='linear' timeOffset="start" >
+        <vmap:AdSource allowMultipleAds='false' followRedirects='true' id='1' >
+            <vmap:AdTagURI>
+                <![CDATA[http://7b9df.v.fwmrm.net/ad/1]]>
+            </vmap:AdTagURI>
+        </vmap:AdSource>
+    </vmap:AdBreak>
+</vmap:VMAP>

@@ -1,0 +1,139 @@
+{
+  "version": "3.0",
+  "ads": [
+    {
+      "adType": 1,
+      "adTitle": "VAST 2.0 Instream Test 1",
+      "description": "VAST 2.0 Instream Test 1",
+      "adSystem": {
+        "name": "Acudeo Compatible"
+      },
+      "id": "601364",
+      "error": "http://myErrorURL/error",
+      "impressions": [
+        {
+          "uri": "http://myTrackingURL/impression"
+        }
+      ],
+      "creatives": [
+        {
+          "creativeType": 1,
+          "duration": "01:00:00",
+          "trackings": [
+            {
+              "event": 1,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 1,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 2,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 3,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 4,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 5,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 6,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 7,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 8,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 9,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 10,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 11,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 12,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 13,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 14,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 15,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 16,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 17,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 18,
+              "uri": "http://www.google.com"
+            },
+            {
+              "event": 19,
+              "uri": "http://www.google.com",
+              "offset": "30%"
+            },
+            {
+              "event": 19,
+              "uri": "http://www.google.com",
+              "offset": "5.2563%"
+            },
+            {
+              "event": 19,
+              "uri": "http://www.google.com",
+              "offset": "00:01:20"
+            },
+            {
+              "event": 19,
+              "uri": "http://www.google.com",
+              "offset": "15:20:59.123"
+            }
+          ]
+        },
+        {
+          "creativeType": 1,
+          "duration": "01:00:00",
+          "trackings": [
+            {
+              "event": 19,
+              "uri": "http://www.google.com",
+              "offset": "15:20:59.123"
+            }
+          ]
+        },
+        {
+          "creativeType": 1,
+          "duration": "01:00:00"
+        }
+      ]
+    }
+  ]
+}

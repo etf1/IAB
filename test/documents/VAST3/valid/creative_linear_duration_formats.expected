@@ -1,0 +1,37 @@
+{
+  "version": "3.0",
+  "ads": [
+    {
+      "adType": 1,
+      "adTitle": "VAST 2.0 Instream Test 1",
+      "description": "VAST 2.0 Instream Test 1",
+      "adSystem": {
+        "name": "Acudeo Compatible"
+      },
+      "id": "601364",
+      "error": "http://myErrorURL/error",
+      "impressions": [
+        {
+          "uri": "http://myTrackingURL/impression"
+        }
+      ],
+      "creatives": [
+        {
+          "creativeType": 1,
+          "duration": "01:00:00",
+          "adID": "601364"
+        },
+        {
+          "creativeType": 1,
+          "duration": "01:00:00.000",
+          "adID": "601364"
+        },
+        {
+          "creativeType": 1,
+          "duration": "100:59:59.123",
+          "adID": "601364"
+        }
+      ]
+    }
+  ]
+}
