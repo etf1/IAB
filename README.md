@@ -6,7 +6,7 @@
 const IAB = require('iab');
 
 // VAST 2/3
-const parser = new IAB.VASTParser(vastXMLContent);
+const parser = new IAB.VAST3Parser(vastXMLContent);
 // Or VMAP
 const parser = new IAB.VMAPParser(vastXMLContent);
 
