@@ -3,7 +3,7 @@
 [![dependencies Status](https://david-dm.org/etf1/IAB/status.svg)](https://david-dm.org/etf1/IAB) [![Build Status](https://travis-ci.org/etf1/IAB.svg?branch=master)](https://travis-ci.org/etf1/IAB) [![codecov](https://codecov.io/gh/etf1/IAB/branch/master/graph/badge.svg)](https://codecov.io/gh/etf1/IAB) [![Known Vulnerabilities](https://snyk.io/test/github/etf1/IAB/badge.svg)](https://snyk.io/test/github/etf1/IAB)
 
 ```js
-const IAB = require('IAB');
+const IAB = require('iab');
 
 // VAST 2/3
 const parser = new IAB.VASTParser(vastXMLContent);
