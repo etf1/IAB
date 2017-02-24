@@ -1,4 +1,4 @@
-<!-- Wrapper with a duration -->
+<?xml version="1.0"?>
 <VAST version="3.0">
     <Ad id="287461" sequence="1">
         <Wrapper>
@@ -9,7 +9,7 @@
             <Creatives>
                 <Creative>
                     <Linear>
-                        <Duration>00:00:15</Duration>
+                        <Duration>00:00:30</Duration>
                         <TrackingEvents>
                             <Tracking event="creativeView"><![CDATA[http://example.com/wrapper-creativeview]]></Tracking>
                             <Tracking event="start"><![CDATA[http://example.com/wrapper-start]]></Tracking>
@@ -25,11 +25,6 @@
                     </Linear>
                 </Creative>
             </Creatives>
-            <Extensions>
-                <Extension type="Behavior">
-                    <Behavior type="thirdPartyAdServer">unknown</Behavior>
-                </Extension>
-            </Extensions>
         </Wrapper>
     </Ad>
 </VAST>
