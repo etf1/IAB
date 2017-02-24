@@ -1,6 +1,6 @@
 {
   "name": "iab",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IAB's VAST & VMAP formats parser for Node.js",
   "main": "./built/js/index.js",
   "types": "./built/definitions/index.d.ts",
