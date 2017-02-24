@@ -422,7 +422,7 @@ const wrapperCreativeSchema: Joi.ObjectSchema = Joi
       .optional()
       .description('Ad-ID for the creative (formerly ISCI) for wrapped Ads'),
   })
-  .unknown(false);
+  .unknown(true);
 
 /**
  * Common values of all ads.
